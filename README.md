@@ -5,8 +5,8 @@ uuwise.com(优优云)的python客户端，recognize函数里的code_type参数�
 ##Example
 ```
 api = uuApi("soft_id", "soft_key", "user_name", "user_password")
-    if api.enable():
-    	print api.recognize("captcha.jpg", 1004)
+if api.enable():
+    print api.recognize("captcha.jpg", 1004)
 ```
 
 ## Licence
